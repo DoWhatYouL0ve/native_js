@@ -1,6 +1,6 @@
 import { StudentType } from "../02_objects_tests/02";
-import {CityType, GovernmentBuildingsType, HousesType} from "../02_objects_tests/02_02";
-import exp from "constants";
+import {GovernmentBuildingsType, HousesType} from "../02_objects_tests/02_02";
+
 
 export const sum = (a: number, b:number) => {
     return a+b
@@ -36,4 +36,3 @@ export const staffAmountChanging = (governmentB: GovernmentBuildingsType, staff:
     governmentB.staffCount += staff
 }
 
-'hello'
